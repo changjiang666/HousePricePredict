@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy import stats
 from scipy.stats import norm
-#import xgboost as xgb
+import xgboost as xgb
 
 
 #给每一列数据进行命名
@@ -505,6 +505,7 @@ for i in range(10):
 print(index1, index2)
 
 #3. 通过集成学习的方法综合3个模型
+#时间原因，最后没有选择这个方法.
 
 
 '''
